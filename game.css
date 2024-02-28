@@ -62,7 +62,7 @@ img{
     border-radius: 1rem;
 
 }
-@media (max-width:592px) {
+@media (max-width:909px) {
  .allImgDiv{
     height:87px ;
     width: 87px;
@@ -74,6 +74,7 @@ img{
 } 
 .choices{
     gap: 1rem;
+    
 }
 .userScore-para, .compScore-para{
     font-size: 2rem;
@@ -81,4 +82,49 @@ img{
     .msg{
         font-size: 1.7rem;
     }
+}
+
+
+
+@media (max-width:307px) {
+    .allImgDiv{
+    height:93px ;
+    width: 93px;
+}
+img{
+   
+    height: 90px;
+    width: 90px;
+} 
+.choices{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 5px;
+}
+.userScore-para, .compScore-para{
+    font-size: 1.5rem;
+}
+.scoreBoard{
+    margin-top: 5rem;
+}
+    .msg{
+        font-size: 0.8rem;
+    }
+    h1{
+        font-size: 25px;
+    }
+    p{
+        font-size: 25px;
+    }
+    .winner-container{
+    position: absolute;
+       bottom: 205px;
+       left: 5px;
+       width: 240px;
+   
+
+    }
+    
 }
