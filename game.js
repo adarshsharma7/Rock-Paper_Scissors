@@ -8,7 +8,7 @@ const winnerMsg=document.querySelector(".msg")
 
 
 const draw=(compChoice)=>{
-    winnerMsg.innerText=`Draw, Computer choice ${compChoice}`
+    winnerMsg.innerText=`Draw, Computer choose ${compChoice}`
     winnerMsg.style.backgroundColor="rgb(80, 71, 71)"
     // console.log("draw");
 }
